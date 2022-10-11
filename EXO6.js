@@ -26,7 +26,7 @@ function boundriesCheck() {
   for (var i = 0; i < boundaries.length; i++) {
     boundaries[i].style.backgroundColor = "red";
   }
-    document.getElementById("status").innerHTML = "click to s to restart the game";
+   
 }
 function e_point_listener() {
   if (playing == true) {
