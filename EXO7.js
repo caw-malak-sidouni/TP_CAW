@@ -33,7 +33,7 @@ function e_point_listener() {
   if (playing == true) {
     s_point.removeEventListener("mouseover", StartGame);
     s_point.removeEventListener("mouseover", checkCheating);
-    document.getElementById("status").innerHTML = "YOU WON!";
+    document.getElementById("status").innerHTML = "YOU WIN!";
   }
 
   playing = false;
