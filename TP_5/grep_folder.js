@@ -42,4 +42,4 @@ function readFile(filename, string) {
 
 main();
 //test
-// node .\grep_folders.js -r "he " files
+// node .\grep_folder.js -r "he " files
