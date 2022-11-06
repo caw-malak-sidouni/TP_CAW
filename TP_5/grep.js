@@ -26,7 +26,7 @@ function main() {
             console.log(e)
         }
         arrayOfFiles.forEach(filename => {
-            readFile(filename, word);
+            readFile(folder+filename, word);
         });
         if (occurrence === 0) {
             console.log("None")
@@ -116,8 +116,8 @@ function readFile(filename, string) {
 
 main()
 //for files in root directory
-// test : node ./grep.js "he " example.txt example1.txt example2.txt
+// test : node ./grep.js "hello " example.txt example1.txt example2.txt
 //for files in custom directory
-// test : node ./grep.js "he " files/ example.txt example1.txt example2.txt
+// test : node ./grep.js "hello " files/ example.txt example1.txt example2.txt
 //for folder only
-// test : node ./grep.js "he " files/files2
+// test : node ./grep.js "hello " files/files2
