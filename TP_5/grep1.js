@@ -24,4 +24,4 @@ function readFile(filename, string) {
 
 main();
 //test
-// node .\grep_files.js "he " example.txt example1.txt example2.txt
+// node .\grep1.js "he " example.txt example1.txt example2.txt
